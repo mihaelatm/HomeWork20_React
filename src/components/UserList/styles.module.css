@@ -1,0 +1,17 @@
+.user_list {
+  list-style-type: none;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.user_list_item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s;
+}
+
+.user_list_item:hover {
+  background-color: #e0e0e0;
+}
